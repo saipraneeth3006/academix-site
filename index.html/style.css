@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+}
+
+/* Header */
+header {
+    background: rgb(255, 255, 255);
+    padding: 15px 25px;
+}
+
+/* Sidebar and main content */
+.layout {
+    display: flex;
+    
+}
+
+/* Overall layout */
+.layout {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 20px;
+    padding: 25px;
+    align-items: start;
+}
+
+/* Main content */
+main {
+    min-width: 0;
+}
+
+/* Three cards */
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 20px;
+}
+
+/* Individual cards */
+.card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    min-width: 0;
+}
+
